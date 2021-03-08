@@ -1,6 +1,7 @@
 {
   "name": "scoober-game-client",
   "version": "0.1.0",
+  "homepage": "https://vijay.dadhich09.github.io/scoober-game",
   "private": true,
   "jest": {
     "testMatch": [
