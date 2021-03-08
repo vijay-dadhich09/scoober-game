@@ -21,6 +21,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Major Tech stack - Client
 - React (17.0.1)
 - Redux (7.2.2)
+- TypeScript (3.8.2)
 - @reduxjs/toolkit (1.5.0)
 - @material-ui/core (4.11.3)
 - socket.io-client (3.1.1)
