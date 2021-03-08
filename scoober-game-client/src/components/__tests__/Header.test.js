@@ -1,0 +1,11 @@
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import Header from '../Header';
+
+describe('Header test', () => {
+  it('renders title', () => {
+    render(<Header text="Scoober game" />);
+
+    expect(screen.getByText('Scoober Game')).toHaveTextContent('Scoober Game');
+  });
+});
