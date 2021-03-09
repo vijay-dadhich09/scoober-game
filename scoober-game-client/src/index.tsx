@@ -8,7 +8,8 @@ import { configStore } from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
-const url = 'http://localhost:5001';
+// const url = 'http://localhost:5001';
+const url = 'https://vijay-dadhich09.github.io/scoober-game-server:5001';
 const socket = io(url);
 const store = configStore(socket);
 
