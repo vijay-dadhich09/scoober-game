@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/scoober-game/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/scoober-game/static/js/main.f62dd831.chunk.js",
-    "main.js.map": "/scoober-game/static/js/main.f62dd831.chunk.js.map",
+    "main.js": "/scoober-game/static/js/main.aebd5c15.chunk.js",
+    "main.js.map": "/scoober-game/static/js/main.aebd5c15.chunk.js.map",
     "runtime-main.js": "/scoober-game/static/js/runtime-main.77b07e7c.js",
     "runtime-main.js.map": "/scoober-game/static/js/runtime-main.77b07e7c.js.map",
     "static/js/2.fc36980c.chunk.js": "/scoober-game/static/js/2.fc36980c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.77b07e7c.js",
     "static/js/2.fc36980c.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.f62dd831.chunk.js"
+    "static/js/main.aebd5c15.chunk.js"
   ]
 }
