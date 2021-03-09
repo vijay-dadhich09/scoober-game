@@ -40,23 +40,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Installation
 ### Running the Server:
 Open a terminal window
-1. `cd scoober-server && yarn or npm i`
+1. `cd scoober-game-server && yarn or npm i`
 2. `yarn start`
 3. Open [http://localhost:5001](http://localhost:5001) to view server status in the browser.
 ### Running the client:
 Open a terminal window
-1. `cd scoober-client && yarn or npm i`
+1. `cd scoober-game-client && yarn or npm i`
 2. `yarn start`
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### Test the client:
 Open a terminal window
-1. `cd scoober-client`
+1. `cd scoober-game-client`
 2. `yarn test` // to run all the tests
 3. `yarn test:coverage` // to run test and generate coverage report
 4. `cd coverage && cd lcov-report open index.html` // to view coverage report in the browser
 
 ### Build the client:
 Open a terminal window
-1. `cd scoober-client`
+1. `cd scoober-game-client`
 2. `yarn build` // It correctly bundles React in production mode and optimizes the build for the best performance.
 
