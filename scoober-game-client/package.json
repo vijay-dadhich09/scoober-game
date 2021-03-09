@@ -52,13 +52,16 @@
     "socket.io-client": "^3.1.1",
     "typescript": "~3.8.2"
   },
+  "devDependencies": {
+    "jest-environment-jsdom-sixteen": "^1.0.3"
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "test:coverage": "react-scripts test --coverage --testPathIgnorePatterns=/src/serviceWorker.js,src/App.tsx,src/index.tsx  --env=jsdom",
+    "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
+    "test:coverage": "react-scripts test --coverage --testPathIgnorePatterns=/src/serviceWorker.js,src/App.tsx,src/index.tsx  --env=jest-environment-jsdom-sixteen",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

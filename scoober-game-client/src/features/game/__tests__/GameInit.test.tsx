@@ -28,8 +28,8 @@ describe('GameInit', () => {
 
     render(<GameInit {...props} />);
 
-    const message = screen.getByText('Connecting...');
-    expect(message).toHaveTextContent('Connecting...');
+    const message = screen.getByText('Server is not connected...');
+    expect(message).toHaveTextContent('Server is not connected...');
   });
 
   it('renders no message if isConnected', () => {

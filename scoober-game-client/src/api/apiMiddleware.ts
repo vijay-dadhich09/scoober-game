@@ -1,7 +1,7 @@
-export const createSocketApiMiddleware = (socket) => ({
+export const createSocketApiMiddleware = (socket: any) => ({
   dispatch,
   getState,
-}) => (next) => (action) => {
+}: any) => (next: any) => (action: any) => {
   if (typeof action === 'function') {
     action(socket, dispatch, getState);
   } else {

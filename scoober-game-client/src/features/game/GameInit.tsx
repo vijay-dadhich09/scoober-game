@@ -52,7 +52,7 @@ const GameInit = ({ selfId, winner, initGame, isConnected, isRoomFull }: Props) 
     <div className={classes.root}>
       {!!winner && <GameResult selfId={selfId} winner={winner} />}
         {!isConnected && (<Typography variant="h5" component="h6" className={classes.loading}>
-          Server is not not connected... 
+          Server is not connected... 
         </Typography>)}
         {isRoomFull && <Alert severity="info" variant="filled" color="warning" className={classes.alertStyle}>
           Room is full. Please try after some time!
