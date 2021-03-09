@@ -1,8 +1,8 @@
 {
   "name": "scoober-game-client",
   "version": "0.1.0",
-  "homepage": "https://vijay.dadhich09.github.io/scoober-game",
   "private": true,
+  "homepage": "http://vijay.dadhich.github.io/scoober-game",
   "jest": {
     "testMatch": [
       "**/__tests__/**/*.[jt]s?(x)",
@@ -44,6 +44,7 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "@types/react-redux": "^7.1.7",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.0",
@@ -74,8 +75,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
   }
 }
