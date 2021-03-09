@@ -20,6 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![Alt text](/screenshots/img4.png?raw=true "Lost Screen")
 ![Alt text](/screenshots/img5.png?raw=true "Two player screen")
 ![Alt text](/screenshots/img6.png?raw=true "Two player result screen")
+![Alt text](/screenshots/img7.png?raw=true "Room is full screen")
 ## Major Tech stack - Client
 - React (17.0.1)
 - Redux (7.2.2)
