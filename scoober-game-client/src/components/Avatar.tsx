@@ -34,7 +34,7 @@ const Avatar = ({ username, profileImg, variant }: Props) => {
     <div className={classes.avatar}>
       <img
         className={`${classes.avatarImage} ${classes[variant?? 'out']}`}
-        src={profileImg}
+        src={`/scoober-game/${profileImg}`}
         alt={username}
         aria-label={username}
       />

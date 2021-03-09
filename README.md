@@ -14,10 +14,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 5. A 30 second timer to select an option other wise player will loose the game 
 
 ### Screens
-![Alt text](/screenshots/screen1.png?raw=true "Screen 1")
-![Alt text](/screenshots/screen2.png?raw=true "Screen 1")
-![Alt text](/screenshots/screen3.png?raw=true "Screen 1")
-![Alt text](/screenshots/screen4.png?raw=true "Screen 1")
+![Alt text](/screenshots/img1.png?raw=true "Main Screen")
+![Alt text](/screenshots/img2.png?raw=true "play with computer screen one")
+![Alt text](/screenshots/img3.png?raw=true "play with computer screen two")
+![Alt text](/screenshots/img4.png?raw=true "Lost Screen")
+![Alt text](/screenshots/img5.png?raw=true "Two player screen")
+![Alt text](/screenshots/img6.png?raw=true "Two player result screen")
 ## Major Tech stack - Client
 - React (17.0.1)
 - Redux (7.2.2)
