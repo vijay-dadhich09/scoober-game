@@ -32,7 +32,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - @testing-library/react-hooks (5.1.0)
 - @testing-library/user-event (7.2.1)
 - prop-types
-## Major Tech stack - Client
+## Major Tech stack - Server
 - socket.io (3.1.2)
 - express (4.17.1)
 - uuid (8.3.2)
